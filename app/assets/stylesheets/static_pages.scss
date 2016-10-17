@@ -1,3 +1,27 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1{
+	padding-top:35px;
+	font-family: 'Gravitas One', cursive;
+	text-align:center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.navbar, footer{
+	background-color:#FFCD6F;
+}
+
+.navbar-inverse .navbar-nav>li>a, footer{
+     color:brown;
+     letter-spacing:0.05em;
+     text-transform:uppercase;
+}
+
